@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+    
+    <EditText
+        android:id="@+id/birth_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/custom_input"
+        android:hint="Masukkan tahun lahir anda"
+        android:layout_marginTop="64dp"
+        />
+
+    <Button
+        android:id="@+id/btn_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:text="Temukan Generasi Kamu"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil akan muncul disini"
+        android:textSize="16dp"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/result_generation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hasil adalah"
+        android:textSize="14dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        />
+</LinearLayout>
+
